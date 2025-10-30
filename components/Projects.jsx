@@ -8,19 +8,19 @@ export default function ProjectsSection() {
     const projects = [
         {
             id: 1,
-            title: "Uber",
+            title: "Paylo",
             subtitle: "Affordability Low Price Insights",
-            image: "/porject-1.jpg", // replace with your image path
+            image: "/paylo.png", // replace with your image path
             year: "2025",
-            tags: ["UI/UX", "B2C", "Mobile Design", "Food Delivery"],
-            link: "/projects/uber", // your project page route
+            tags: ["UI/UX", "B2C", "Mobile Design", "Payments"],
+            link: "/projects/paylo", // your project page route
             bg: "from-green-100 to-green-500",
         },
         {
             id: 2,
             title: "Lume",
             subtitle: "Lume UI/UX Case Study.",
-            image: "/porject-1.jpg", // replace with your image path
+            image: "/macbook.png", // replace with your image path
             year: "2025",
             tags: ["UI/UX", "B2C", "Mobile Design", "E-Commerce"],
             link: "/projects/lume",
@@ -29,7 +29,7 @@ export default function ProjectsSection() {
     ];
 
     return (
-        <section className="bg-[#0d0d0d] text-white py-20 px-6 md:px-12 lg:px-8">
+        <section id="projects" className="bg-[#0d0d0d] text-white py-20 px-6 md:px-12 lg:px-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-10">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {projects.map((project) => (

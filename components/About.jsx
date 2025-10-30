@@ -3,29 +3,30 @@ import Image from "next/image";
 
 export default function AboutSection() {
     return (
-        <section className="bg-[#0d0d0d] text-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10">
+        <section id="about" className="bg-[#0d0d0d] text-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-10">
             {/* Left Text Section */}
             <div className="md:w-1/2 space-y-5 leading-relaxed">
-                <p className="text-gray-300 text-lg">
-                    ↳
-                </p>
-                <p className="text-xl md:text-2xl font-medium">
-                    Hi, I’m <span className="font-semibold text-white">DHANASHRI!</span> A Pune Based UIUX
-                    designer who transforms pixels into storytelling, interactive worlds,
-                    and matcha-fueled creations.
+                {/* Arrow + Intro line */}
+                <p className="text-xl md:text-xl  flex items-start gap-2">
+                    <span className="text-gray-300 text-2xl flex-shrink-0 mt-1">➜</span>
+                    <span>
+                        Hi, I’m <span className="text-xl text-white">DHANASHRI! </span>{" "} A Pune Based UIUX
+                        designer who transforms pixels into storytelling, interactive worlds,
+                        and matcha-fueled creations.
+                    </span>
                 </p>
 
-                <p className="text-lg text-gray-300">
-                    I’m currently pursuing my Bachleors in UIUX  at
-                    AT PUNE, and I’ve brought my
+                {/* Other paragraphs with matching left padding */}
+                <p className="text-lg text-gray-300 pl-7 md:pl-8">
+                    I’m currently pursuing my Bachelors in UIUX at PUNE, and I’ve brought my
                     craft to companies like Uber designing experiences that connect people
                     and culture.
                 </p>
 
-                <p className="text-lg text-gray-300">
+                <p className="text-lg text-gray-300 pl-7 md:pl-8">
                     Contact me at{" "}
                     <a
-                        href="mailto:queenie2000824@gmail.com"
+                        href="mailto:dhanashri@gmail.com"
                         className="underline text-white hover:text-gray-400 transition"
                     >
                         dhanashri@gmail.com
@@ -33,6 +34,8 @@ export default function AboutSection() {
                     to learn more!
                 </p>
             </div>
+
+
 
             {/* Right Image Section */}
             <div className="md:w-1/2 flex justify-center">

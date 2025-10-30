@@ -261,6 +261,7 @@ export default function HeroAnimation() {
 
     return (
         <div
+            id="home"
             ref={containerRef}
             className="relative w-full h-[100vh] bg-[#0d0d0d] overflow-hidden flex items-center justify-center"
         >

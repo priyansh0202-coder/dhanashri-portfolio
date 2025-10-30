@@ -9,9 +9,9 @@ const Navbar = () => {
 
     const navlinks = [
         { href: "#home", text: "Home" },
-        { href: "#journey", text: "Journey" },
-        { href: "#experience", text: "Experience" },
         { href: "#projects", text: "Projects" },
+        { href: "#about", text: "About" },
+        { href: "#experience", text: "Experience" },
     ];
 
     return (
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="max-w-7xl py-2 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
-                    <div className="text-white text-2xl font-bold">Unknown</div>
+                    <div className="text-white text-2xl font-bold">Dhanashri</div>
 
                     {/* Desktop Links */}
                     <div className="hidden md:flex space-x-16 mx-auto text-white font-medium">
