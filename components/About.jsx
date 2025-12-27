@@ -19,7 +19,7 @@ export default function AboutSection() {
                 {/* Other paragraphs with matching left padding */}
                 <p className="text-lg text-gray-300 pl-7 md:pl-8">
                     I’m currently pursuing my Bachelors in UIUX at PUNE, and I’ve brought my
-                    craft to companies like Uber designing experiences that connect people
+                    craft to companies like Infusyx designing experiences that connect people
                     and culture.
                 </p>
 

@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleNav = () => setNavOpen(!navOpen);
 
     const navlinks = [
-        { href: "#home", text: "Home" },
+        { href: "/", text: "Home" },
         { href: "#projects", text: "Projects" },
         { href: "#about", text: "About" },
         { href: "#experience", text: "Experience" },

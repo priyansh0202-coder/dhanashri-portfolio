@@ -18,12 +18,32 @@ export default function ProjectsSection() {
         },
         {
             id: 2,
-            title: "Lume",
-            subtitle: "Lume UI/UX Case Study.",
+            title: "Infusyx",
+            subtitle: "Infusyx UI/UX Case Study.",
             image: "/macbook.png", // replace with your image path
             year: "2025",
-            tags: ["UI/UX", "B2C", "Mobile Design", "E-Commerce"],
-            link: "/projects/lume",
+            tags: ["UI/UX", "Mobile Design", "Web Design"],
+            link: "/projects/infusyx",
+            bg: "from-black to-gray-900",
+        },
+        {
+            id: 3,
+            title: "RealEstate",
+            subtitle: "RealEstate UI/UX Case Study.",
+            image: "/ZenBook Duo.png", // replace with your image path
+            year: "2025",
+            tags: ["UI/UX", "B2C", "Mobile Design", "Payments"],
+            link: "/projects/homily", // your project page route
+            bg: "from-green-100 to-green-500",
+        },
+        {
+            id: 4,
+            title: "CRM",
+            subtitle: "CRM UI/UX Case Study.",
+            image: "/Mac Studio.png", // replace with your image path
+            year: "2025",
+            tags: ["UI/UX", "Mobile Design", "Web Design"],
+            link: "/projects/crm",
             bg: "from-black to-gray-900",
         },
     ];
