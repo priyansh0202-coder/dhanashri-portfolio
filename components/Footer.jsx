@@ -49,7 +49,6 @@ const Footer = () => {
                         </div>
                     ))}
                 </div>
-
                 {/* Bottom section */}
                 <div className="flex flex-col sm:flex-row justify-between items-center mt-16 gap-6">
                     {/* Contacts */}
